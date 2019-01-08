@@ -1,7 +1,7 @@
 const expect = chai.expect;
 spyOnNumberIsInteger.restore();
 let newID = oldID+1000000000;
-let ageIsValid = Number.isInteger(currentAge);
+let ageIsValid = Number.isInteger(parseInt(currentAge));
 
 describe('index.js', function() {
   describe('newID', function() {
