@@ -1,7 +1,7 @@
 const expect = chai.expect;
 spyOnNumberIsInteger.restore();
 let newID = oldID + 1000000000;
-let ageIsValid = Number.isInteger(ages);
+let ageIsValid = Number.isInteger(currentAge);
 let randomNumber = Math.floor(Math.random() * 20) + 1;
 let randomInteger = Math.floor(randomNumber);
 let randomUserID = Math.floor(Math.random() * 10) + 1000000000;
